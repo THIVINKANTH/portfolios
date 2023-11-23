@@ -64,6 +64,17 @@ body
     letter-spacing: 0.18px;
     text-decoration: none;
 }
+#resume:hover{
+  color: black;
+  background-color: #1CEFBC;
+}
+.bi{
+  color: white;
+}
+#icons .bi:hover
+{
+  color: #1CEFBC;
+}
 #heading
 {
     color: #FFF;
@@ -137,8 +148,9 @@ body
 }
 #res-pro
 {
-  width: 241px;
-  padding: 13px 28px 72px 27px;
+  width: 100%;
+  height: 100%;
+  padding: 13px 15px 72px 15px;
   flex-direction: column;
   align-items: flex-start;
   gap: 33px;
@@ -455,7 +467,7 @@ ul li .descr::before {
   }
   .card {
     margin: 0 0.5em;
-    width: calc(100% / 2);
+    /* width: calc(100% / 2); */
   }
   .image-wrapper {
     /* height: 20vw; */
