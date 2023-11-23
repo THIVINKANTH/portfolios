@@ -24,13 +24,13 @@ body
 }
 .imgbox img{
   position: relative;
-      left: 30px;
+      left: 40px;
   animation: animateUser 4s linear infinite;
 }
 @keyframes animateUser{
   50%{
       left: 10px;
-      top: -1px;
+      /* top: -1px; */
   }
 }
 #head-name
