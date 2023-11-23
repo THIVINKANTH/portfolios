@@ -19,6 +19,20 @@ body
 .nav-link:hover{
   color: #1CEFBC;
 }
+.imgbox{
+  position: relative;
+}
+.imgbox img{
+  position: relative;
+      left: 30px;
+  animation: animateUser 4s linear infinite;
+}
+@keyframes animateUser{
+  50%{
+      left: 10px;
+      top: -1px;
+  }
+}
 #head-name
 {
     color: #12DCE9;
@@ -220,7 +234,30 @@ body
   color: white;
   background-color: #1CEFBC;
 }
-
+/* .master
+{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+.master>.item
+{
+  flex: 1 0 10rem;
+} */
+.conbox{
+  position: relative;
+}
+.conbox img{
+  position: relative;
+      left: 30px;
+  animation: animateUser 4s linear infinite;
+}
+@keyframes animateUser{
+  50%{
+      left: 10px;
+      top: -1px;
+  }
+}
 #contact-text
 {
   color: #FFF;
